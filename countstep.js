@@ -10,7 +10,7 @@
         init: function () {
             var _this = this;
             _this.flag = false;
-            _this.count = [];//使用数组实现按引用传值；
+            _this.count = [];
             _this.count[0] = 0;
             function motionHandler(event) {
                 var accGravity = event.accelerationIncludingGravity;
@@ -37,7 +37,7 @@
                 return _this.count;
             }
             else {
-                alert('您的浏览器不支持本计步插件');
+                alert('Ваш браузер не поддерживает этот плагин для подсчета шагов');
             }
 
         },
